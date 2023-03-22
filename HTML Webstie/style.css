@@ -1,0 +1,178 @@
+        body {background-color: white;}
+        
+        img { 
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 40%;
+        }
+
+        .sections {
+            background-color:aliceblue;
+            max-width: 67%;
+            display: block;
+            border-style: solid;
+            border-color: darkcyan;
+            border-width: 5px;
+            padding: 25px;
+            padding-bottom: 50px;
+            margin-bottom: 50px;
+            overflow: auto;
+        }
+        h1   {text-align: center;font-family: "centaur";}
+        
+        h3   {color: black;text-align:center;font-size:300%;font-family: "century schoolbook";}
+
+        h4     {font-family: "century";}
+        
+        p    {font-family: "century";text-align:center;font-size:150%;}
+
+        p.highlights {background-color:orange;}
+        
+        ul, ol {
+            display: block;
+            max-width: 67%;
+            border-style: solid;
+            border-color: darkcyan;
+            border-width: 5px;
+            margin-bottom: 25px;
+            padding: 25px;
+            overflow: hidden;
+            background-color: aliceblue;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        a:active{
+            color: white;
+        }
+        
+        li {
+            padding: 5px 5px;
+            float: middle;
+            font-family: "century gothic";
+        }
+
+        li a {
+                display: block;
+                color: black;
+                text-align: center;
+                padding: 16px;
+                text-decoration: none;
+        }
+
+        li a:hover {
+                    background-color: darkcyan;
+        }
+        
+        .column {
+            float: left;
+            width: 50%;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .rectangle {
+            height: 50px;
+            width: 100%;
+            margin-bottom: 50px;
+            background-color: skyblue;
+}
+
+        .tab {
+            overflow: hidden;
+            border: 2px solid deepskyblue;
+            background-color: skyblue;
+            display: inline-block;
+        }
+
+        .tab button {
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+            font-size: 20px;
+        }
+
+        .tab button:hover {
+            background-color: deepskyblue;
+        }
+
+        .tab button.active {
+            background-color: aliceblue;
+        }
+
+        .tabcontent {
+            display: none;
+            padding: 6px 12px;
+            border: 1px solid #ccc;
+            border-top: none;
+            animation: fadeEffect 1s;
+        }
+
+        @keyframes fadeEffect {
+            from {opacity: 0;}
+            to {opacity: 1;}
+        }
+
+        .button {
+            overflow: hidden;
+            background-color: skyblue;
+            display: inline-block;
+            border-radius: 50px;
+            width: 100%;
+            text-align: center;
+        }
+
+
+        .button button{
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 8px 16px;
+            border-radius: 50px;
+            font-size: 20px;
+            background-color: inherit;
+            width: 100%;
+}
+
+        .button button:hover {
+            background-color: deepskyblue;
+        }
+
+        .video {
+            overflow: hidden;
+            width:100%;
+            display: inline-block;
+            float: middle;
+            text-align: center;
+        }
+
+        #top{
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 30px;
+            z-index: 99;
+            border: none;
+            outline: none;
+            background-color: darkgray; 
+            color: black;
+            cursor: pointer;
+            padding: 15px; 
+            border-radius: 10px; 
+            font-size: 18px;
+        }
+
+        #top:hover {
+            background-color: gray;
+        }
